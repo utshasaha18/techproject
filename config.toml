@@ -1,0 +1,74 @@
+baseURL = "http://tdi.org/"
+languageCode = "en-us"
+title = "Tech, Data and Innovation"
+
+baseurl         = "/"
+theme           = "casper-two"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Tech, Data and the Innovation Mindset"
+  subtitle    = "Class of Winter 2019"
+
+  cover       = "img/blog-cover.jpg"
+  description = "Classroom blog for HEC students enrolled in Tech, Data and Innovation course"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "gh_mazars"
+  fbName = "HECParis"
+  githubName = "eueung"
+
+  logo = ""
+  orgName = "HEC"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Tech Team"
+  authorAvatar = "HEC.png"
+  authorLocation = "Paris, France"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "Business students trying to code"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/dashboard/"
+  weight = 200
+
+[[menu.main]]
+  name = "Challenge of the Week"
+  url = "/tags/challenge_of_the_week/"
+  weight = 100
+
+[[menu.main]]
+  name = "Guest Speakers"
+  url = "/tags/guest_speakers/"
+  weight = 99
+
+  [[menu.main]]
+  name = "Tutorials"
+  url = "/tags/tutorials/"
+  weight = 100
+
+  [[menu.main]]
+  name = "Archive"
+  url = "/tags/archive/"
+  weight = 100
+
+
+[[menu.main]]
+  name = "HEC Portal"
+  url = "https://portal.hec.fr/"
+  weight = 95
